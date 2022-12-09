@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{ per_names }}
+    </ion-title>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="primerMenu"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end" (click)="exit()">
+      <ion-icon class="exit_icon"  name="exit"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>

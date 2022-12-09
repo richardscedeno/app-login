@@ -1,0 +1,7 @@
+{
+  "name": "l1p2-login",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
